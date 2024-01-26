@@ -11,42 +11,60 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Wiki Cyber</title>
+    <style>
+        .colorbg{
+            background: rgba(124, 53, 182, 0.4);  
+        }
+        .opacity{
+            opacity: 0,7;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerMenuWiki"
-            aria-controls="navbarTogglerMenuWiki" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div>
-            <a class="navbar-brand" href="#">SyfferTech</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerMenuWiki">
-
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Discord</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Wallpapers</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
-        </div>
-    </nav>
-
-    <div class="container">
+    <!-- menu -->
+    <div class="container ">
         <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerMenuWiki"
+                    aria-controls="navbarTogglerMenuWiki" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                    <a class="navbar-brand" href="#">SyfferTech</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerMenuWiki">
+
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discord</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wallpapers</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- /menu -->
+        <div class="row colorbg">
             <div class="col">
-                <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-                    <div class="col-md-6 px-0">
+                
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
                         <h1 class="display-4 font-italic">Crie seus propios conteudos</h1>
                         <p class="lead my-3">Publique suas fãs artes aqui! oferecemos hospedagem gratuita para
                             conteudo
@@ -55,59 +73,32 @@
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Primeiro Slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Segundo Slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Terceiro Slide">
-                        </div>
+                <div class="card">
+                    <div class="card-header">
+
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Primeiro Slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Segundo Slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="IMG/1.jpg" alt="Terceiro Slide">
-                        </div>
+                    <div class="card-body">
+                        <h1 class="display-4 font-italic">Crie seus propios conteudos</h1>
+                        <p class="lead my-3">Publique suas fãs artes aqui! oferecemos hospedagem gratuita para
+                            conteudo
+                            relacionado ao Cyber Hunter</p>
+                        <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a>
+                        </p>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
                 </div>
+                <!--  <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+                    <div class="col-md-6 px-0">
+                        <h1 class="display-4 font-italic">Crie seus propios conteudos</h1>
+                        <p class="lead my-3">Publique suas fãs artes aqui! oferecemos hospedagem gratuita para
+                            conteudo
+                            relacionado ao Cyber Hunter</p>
+                        <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a>
+                        </p>
+                    </div>-->
             </div>
         </div>
-        <div class="row">
+
+        <div class="row colorbg">
             <div class="col">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
